@@ -28,7 +28,7 @@ import android.util.AttributeSet;
  * <p>
  * This RecycleView will listening itself whether scroll at the top or bottom.
  * </p>
- * Created by Eric on 15/7/7.
+ * Created by Eric on 16/3/15.
  */
 public class LinearRecyclerView extends RecyclerView {
 

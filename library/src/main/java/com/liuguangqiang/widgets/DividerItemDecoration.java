@@ -30,7 +30,7 @@ import java.util.List;
 /**
  * Add a divider between all items for RecyclerView.
  * <p/>
- * Created by Eric on 15/8/7.
+ * Created by Eric on 16/3/15.
  */
 public class DividerItemDecoration extends RecyclerView.ItemDecoration {
 

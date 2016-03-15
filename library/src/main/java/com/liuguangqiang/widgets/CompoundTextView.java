@@ -25,7 +25,7 @@ import android.widget.TextView;
 /**
  * A TextView that add compound drawables easier.
  * <p/>
- * Created by Eric on 15/1/26.
+ * Created by Eric on 16/3/15.
  */
 public class CompoundTextView extends TextView {
 

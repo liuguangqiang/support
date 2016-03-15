@@ -25,7 +25,7 @@ import android.view.View;
 /**
  * Fixed a bug that the animation will be blocked when refreshing too frequent.
  * <p>
- * Created by Eric on 15/10/14.
+ * Created by Eric on 16/3/15.
  */
 public class FixedSwipeRefreshLayout extends SwipeRefreshLayout {
 

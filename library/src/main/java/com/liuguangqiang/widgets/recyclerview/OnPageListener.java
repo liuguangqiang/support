@@ -18,7 +18,7 @@
 package com.liuguangqiang.widgets.recyclerview;
 
 /**
- * Created by Eric on 15/7/7.
+ * Created by Eric on 16/3/15.
  */
 public interface OnPageListener {
 

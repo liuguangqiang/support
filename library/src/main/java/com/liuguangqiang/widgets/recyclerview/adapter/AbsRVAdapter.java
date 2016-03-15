@@ -15,7 +15,7 @@
  *
  */
 
-package com.liuguangqiang.widgets.adapter;
+package com.liuguangqiang.widgets.recyclerview.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -29,7 +29,7 @@ import java.util.List;
 /**
  * A RecyclerView.Adapter that allows to listen click and long click events of items.
  * <p/>
- * Created by Eric on 15/7/7.
+ * Created by Eric on 16/3/15.
  */
 public abstract class AbsRVAdapter<T, VH extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<VH> {
 

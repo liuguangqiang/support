@@ -22,13 +22,13 @@ import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
 
-import com.liuguangqiang.widgets.adapter.AbsRVAdapter;
-import com.liuguangqiang.widgets.adapter.Bookends;
+import com.liuguangqiang.widgets.recyclerview.adapter.AbsRVAdapter;
+import com.liuguangqiang.widgets.recyclerview.adapter.Bookends;
 
 /**
  * A super recycler view that has implemented paging at bottom, paging at top, adding header and adding footer.
  * <p/>
- * Created by Eric on 15/7/7.
+ * Created by Eric on 16/3/15.
  */
 public class SuperRecyclerView extends LinearRecyclerView implements LinearRecyclerView.OnScrollPositionListener {
 
