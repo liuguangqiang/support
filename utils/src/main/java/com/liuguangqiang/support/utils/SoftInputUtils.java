@@ -27,13 +27,13 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 
 /**
- * CommonUtils
+ * SoftInputUtils
  * <p>
  * Created by Eric on 2014-5-19.
  */
-public class CommonUtils {
+public class SoftInputUtils {
 
-    private CommonUtils() {
+    private SoftInputUtils() {
     }
 
     public static void hideSoftKeyborad(Activity context) {
@@ -55,53 +55,6 @@ public class CommonUtils {
         InputMethodManager inputMethodManager =
                 (InputMethodManager) context.getSystemService(Context.INPUT_METHOD_SERVICE);
         inputMethodManager.toggleSoftInput(0, InputMethodManager.HIDE_NOT_ALWAYS);
-    }
-
-    public static void vibrate(Context context, long milliseconds) {
-        Vibrator vib = (Vibrator) context.getSystemService(Service.VIBRATOR_SERVICE);
-        vib.vibrate(milliseconds);
-        if (vib != null) {
-            vib.cancel();
-        }
-    }
-
-    public static void vibrate(Context context, long[] pattern, int repeat) {
-        Vibrator vib = (Vibrator) context
-                .getSystemService(Service.VIBRATOR_SERVICE);
-        vib.vibrate(pattern, repeat);
-        if (vib != null) {
-            vib.cancel();
-        }
-    }
-
-    public static void playNotificationVoice(Context context, int resId) {
-        MediaPlayer mediaPlayer;
-        try {
-            final AudioManager audioManager = (AudioManager) context
-                    .getSystemService(Context.AUDIO_SERVICE);
-            if (audioManager.getStreamVolume(AudioManager.STREAM_NOTIFICATION) != 0) {
-                mediaPlayer = MediaPlayer.create(context, resId);
-                if (mediaPlayer != null) {
-                    mediaPlayer.stop();
-                }
-                mediaPlayer
-                        .setAudioStreamType(AudioManager.STREAM_NOTIFICATION);
-                mediaPlayer.setLooping(false);
-                mediaPlayer.setOnCompletionListener(new OnCompletionListener() {
-                    @Override
-                    public void onCompletion(MediaPlayer mp) {
-                        if (mp != null && mp.isPlaying()) {
-                            mp.stop();
-                        }
-                        mp.release();
-                    }
-                });
-                mediaPlayer.prepare();
-                mediaPlayer.start();
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
     }
 
 }
