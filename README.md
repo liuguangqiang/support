@@ -7,12 +7,12 @@ A collection of widgets and utils that usually used in my projects.
 
 utils:
 ```groovy
-compile 'com.github.liuguangqiang.support:utils:0.0.1'
+compile 'com.liuguangqiang.support:utils:0.1.0'
 ```
 
 widgets
 ```groovy
-compile 'com.github.liuguangqiang.support:widgets:0.0.1'
+compile 'com.liuguangqiang.support:widgets:0.1.0'
 ```
 
 ##License
