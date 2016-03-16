@@ -1,5 +1,5 @@
 /*
- *  Copyright 2015 Eric Liu
+ *  Copyright 2016 Eric Liu
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -12,7 +12,6 @@
  *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
- *
  */
 
 package com.liuguangqiang.support.widgets;
@@ -29,7 +28,7 @@ import java.util.List;
 
 /**
  * Add a divider between all items for RecyclerView.
- * <p/>
+ * <p>
  * Created by Eric on 16/3/15.
  */
 public class DividerItemDecoration extends RecyclerView.ItemDecoration {
