@@ -1,0 +1,11 @@
+ext {
+    minSdkVersion = 14
+    compileSdkVersion = 23
+    targetSdkVersion = 23
+    buildToolsVersion = '23.0.2'
+
+    ci = 'true'.equals(System.getenv('CI'))
+
+    supportRecyclerView = 'com.android.support:recyclerview-v7:23.1.1'
+    supportAppCompat = 'com.android.support:appcompat-v7:23.1.1'
+}
