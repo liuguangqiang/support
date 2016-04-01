@@ -21,6 +21,7 @@ import android.util.Log;
 /**
  * Created by Eric on 15/3/11.
  */
+@Deprecated
 public class Logs {
 
     private static String TAG = "AFramework";
@@ -30,7 +31,7 @@ public class Logs {
     private Logs() {
     }
 
-    public static void setTAG(String tag) {
+    public static void tag(String tag) {
         TAG = tag;
     }
 
