@@ -1,0 +1,21 @@
+<!--
+  ~ Copyright 2015 Lymsh Inc. All rights reserved.
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <ProgressBar
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+</RelativeLayout>
