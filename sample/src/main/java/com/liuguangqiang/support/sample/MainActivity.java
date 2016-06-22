@@ -3,6 +3,8 @@ package com.liuguangqiang.support.sample;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.liuguangqiang.support.utils.Logger;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override

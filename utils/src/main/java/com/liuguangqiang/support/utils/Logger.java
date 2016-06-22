@@ -54,23 +54,23 @@ public class Logger {
         TAG = tag;
     }
 
-    public static void i(@NonNull String message, @NonNull Object... args) {
+    public static void i(@NonNull String message, Object... args) {
         log(Log.INFO, message, args);
     }
 
-    public static void v(@NonNull String message, @NonNull Object... args) {
+    public static void v(@NonNull String message, Object... args) {
         log(Log.VERBOSE, message, args);
     }
 
-    public static void e(@NonNull String message, @NonNull Object... args) {
+    public static void e(@NonNull String message, Object... args) {
         log(Log.ERROR, message, args);
     }
 
-    public static void d(@NonNull String message, @NonNull Object... args) {
+    public static void d(@NonNull String message, Object... args) {
         log(Log.DEBUG, message, args);
     }
 
-    public static void w(@NonNull String message, @NonNull Object... args) {
+    public static void w(@NonNull String message, Object... args) {
         log(Log.WARN, message, args);
     }
 

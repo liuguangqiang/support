@@ -1,1 +1,1 @@
-include ':sample', ':widgets', ':utils'
+include ':sample', ':widgets', ':utils', ':compat', ':extensions'
